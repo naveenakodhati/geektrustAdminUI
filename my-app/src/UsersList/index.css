@@ -1,0 +1,37 @@
+.user-li-container{
+    list-style-type: none;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 10px;
+    width: 80%;
+}
+.user-row-container{
+    display: flex;
+    justify-content: space-between;
+}
+.delete-btn{
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+}
+.delete-img{
+    width: 20px;
+    height: 20px;
+}
+.input-container{
+    width: 20px;
+    height: 20px;
+}
+.selected-checkbox{
+    background-color: gray;
+}
+
+@media screen and (min-width:768px) {
+    .user-li-container{
+        width: 100%;
+    }
+}
